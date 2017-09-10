@@ -44,10 +44,54 @@
             <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="{{ "/" | relative_url }}">
                     <span class="mbri-save mbr-iconfont mbr-iconfont-btn "></span>
                     Try It Now!
-                </a> <a class="btn btn-sm btn-primary display-4" href="{{ "/" | relative_url }}">
+                </a> <a class="btn btn-sm btn-primary display-4" href="#myModal" data-toggle="modal" role="button">
                     <span class="mbri-save mbr-iconfont mbr-iconfont-btn "></span>
                     Try It Now!
                 </a></div>
         </div>
     </nav>
 </section>
+
+
+
+<!--modal form--> <!--button for open form <a class="btn btn-lg btn-primary" href="#myModal" data-toggle="modal" role="button">Button</a> -->
+<div class="container">
+  <div class="row">
+    
+  </div>
+</div>
+
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <h3 id="myModalLabel">We'd Love to Hear From You</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal col-sm-12">
+         <input type="hidden" data-form-email="true" value="qotaX+nJVVyY5JWsKAUzoUpFNieqtIk+TPlmfvQTs02ywCTLcuJ3c3SobemgXlNF0Va1KwDU0vuHt+/5o2hIoD5507/2R+q9b8j4p7NMx3etshMtsJ0wB9mtSWlplx4C">
+                <div data-for="name">
+                    <div class="form-group">
+                        <input type="text" class="form-control px-3" name="name" data-form-field="Name" placeholder="Name" required="" id="name-header15-i">
+                    </div>
+                </div>
+                <div data-for="email">
+                    <div class="form-group">
+                        <input type="email" class="form-control px-3" name="email" data-form-field="Email" placeholder="Email" required="" id="email-header15-i">
+                    </div>
+                </div>
+                <div data-for="phone">
+                    <div class="form-group">
+                        <input type="tel" class="form-control px-3" name="phone" data-form-field="Phone" placeholder="Phone" id="phone-header15-i">
+                    </div>
+                </div>
+                
+                <span class="input-group-btn"><button href="" type="submit" class="btn btn-form btn-primary display-4">SEND FORM</button></span>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
