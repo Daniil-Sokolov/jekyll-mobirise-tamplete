@@ -4,13 +4,8 @@ title: Example page
 subtitle: Example page for Jekyll Mobirise theme
 description: Example page for Wonderfull Jekyll Mobirise theme Example page for Wonderfull Jekyll Mobirise theme
 permalink: /example-page/
+image_path: /jekyll-mobirise-tamplete/assets/images/gallery07.jpg
 ---
-
-<style>
-    .cid-quPf8CGR21 {
-       background-image: url("/jekyll-mobirise-tamplete/assets/images/gallery07.jpg"); 
-        }
-</style>
 
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)

@@ -4,14 +4,9 @@ title:  "Welcome to Jekyll!"
 subtitle: "very well!"
 date:   2017-09-09 14:19:43 +0300
 categories: jekyll update
-image_path: /jekyll-mobirise-tamplete/assets/images/background514.jpg
+image_path: /jekyll-mobirise-tamplete/assets/images/gallery03.jpg
 ---
 
-<style>
-    .cid-quPf8CGR21 {
-       background-image: url("/jekyll-mobirise-tamplete/assets/images/background514.jpg"); 
-        }
-</style>
 
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

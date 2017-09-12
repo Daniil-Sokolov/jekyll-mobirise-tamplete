@@ -5,7 +5,7 @@ subtitle: "Beautiful mobile websites"
 description: "Full width intro with adjustable height, background image and a color overlay. Click any text to edit or style it."
 date:   2017-09-12
 categories: jekyll update
-image_path: /jekyll-mobirise-tamplete/assets/images/background514.jpg
+image_path: /jekyll-mobirise-tamplete/assets/images/gallery00.jpg
 images:
 - image_path: /jekyll-mobirise-tamplete/assets/images/background514.jpg
   alt: "Home 2"
@@ -25,18 +25,14 @@ images:
   alt: "Home 5"
 - image_path: /jekyll-mobirise-tamplete/assets/images/3.jpg
   alt: "Home 5"
+img: /jekyll-mobirise-tamplete/assets/images/gallery00.jpg
+alt-img: gallery01
 ---
 
-<style>
-    .cid-quPf8CGR21 {
-       background-image: url("/jekyll-mobirise-tamplete/assets/images/background514.jpg"); 
-        }
-</style>
 
 
-<a href="/jekyll-mobirise-tamplete/assets/images/gallery01.jpg" class="item library">
-  <img src="/jekyll-mobirise-tamplete/assets/images/gallery01.jpg" alt="Home 5">
-</a>
+
+{% include img.html %}
 
 
 
