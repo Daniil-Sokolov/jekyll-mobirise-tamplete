@@ -15,7 +15,7 @@
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="{{ "/" | relative_url }}">
-                         <img src="{{ site.baseurl }}/assets/images/logo2.png" alt="Mobirise" media-simple="true" style="height: 3.8rem;">
+                         <img src="{{ site.logo }}" alt="Mobirise" media-simple="true" style="height: 3.8rem;">
                     </a>
                 </span>
                 <span class="navbar-caption-wrap">
@@ -32,7 +32,7 @@
                 {% if my_page.title %}
                 <li class="nav-item">
                     <a class="nav-link link text-white display-4" href="{{ my_page.url | prepend: site.baseurl }}">
-                        <span class="mbri-home mbr-iconfont mbr-iconfont-btn"></span>
+                        
                         {{ my_page.title }}
                     </a>
                 </li>
@@ -41,12 +41,10 @@
 
 
             </ul>
-            <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="{{ "/" | relative_url }}">
+            <div class="navbar-buttons mbr-section-btn">
+                <a class="btn btn-sm btn-primary display-4" href="#myModal" data-toggle="modal" role="button">
                     <span class="mbri-save mbr-iconfont mbr-iconfont-btn "></span>
-                    Try It Now!
-                </a> <a class="btn btn-sm btn-primary display-4" href="#myModal" data-toggle="modal" role="button">
-                    <span class="mbri-save mbr-iconfont mbr-iconfont-btn "></span>
-                    Try It Now!
+                    Модал Заявка
                 </a></div>
         </div>
     </nav>
@@ -66,12 +64,12 @@
     <div class="modal-content">
       <div class="modal-header">
         
-        <h3 id="myModalLabel">We'd Love to Hear From You</h3>
+        <h3 id="myModalLabel">Заявка в модальном окне</h3>
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 
       </div>
       <div class="modal-body">
-        <div> <div class="form-container"> <div class="media-container-column" data-form-type="formoid"> <div data-form-alert="" hidden="" class="align-center"> Спасибо за заполнение анкеты! </div> <form class="mbr-form" action="https://mobirise.com/" method="post" data-form-title="Mobirise Form"><input type="hidden" data-form-email="true" value="qotaX+nJVVyY5JWsKAUzoUpFNieqtIk+TPlmfvQTs02ywCTLcuJ3c3SobemgXlNF0Va1KwDU0vuHt+/5o2hIoD5507/2R+q9b8j4p7NMx3etshMtsJ0wB9mtSWlplx4C"> <div data-for="name"> <div class="form-group"> <input type="text" class="form-control px-3" name="name" data-form-field="Name" placeholder="Название" required="" id="name-header15-i"> </div> </div> <div data-for="email"> <div class="form-group"> <input type="email" class="form-control px-3" name="email" data-form-field="Email" placeholder="Электронной почты" required="" id="email-header15-i"> </div> </div> <div data-for="phone"> <div class="form-group"> <input type="tel" class="form-control px-3" name="phone" data-form-field="Phone" placeholder="Телефон" id="phone-header15-i"> </div> </div> <span class="input-group-btn"><button href="" type="submit" class="btn btn-form btn-primary display-4">ОТПРАВИТЬ ФОРМУ</button></span> </form> </div> </div> </div>
+        <div> <div class="form-container"> <div class="media-container-column" data-form-type="formoid"> <div data-form-alert="" hidden="" class="align-center"> Спасибо за заполнение анкеты! </div> <form class="mbr-form" action="https://mobirise.com/" method="post" data-form-title="Mobirise Form"><input type="hidden" data-form-email="true" value="qotaX+nJVVyY5JWsKAUzoUpFNieqtIk+TPlmfvQTs02ywCTLcuJ3c3SobemgXlNF0Va1KwDU0vuHt+/5o2hIoD5507/2R+q9b8j4p7NMx3etshMtsJ0wB9mtSWlplx4C"> <div data-for="name"> <div class="form-group"> <input type="text" class="form-control px-3" name="name" data-form-field="Name" placeholder="Имя" required="" id="name-header15-i"> </div> </div> <div data-for="email"> <div class="form-group"> <input type="email" class="form-control px-3" name="email" data-form-field="Email" placeholder="Email" required="" id="email-header15-i"> </div> </div> <div data-for="phone"> <div class="form-group"> <input type="tel" class="form-control px-3" name="phone" data-form-field="Phone" placeholder="Телефон" id="phone-header15-i"> </div> </div> <span class="input-group-btn"><button href="" type="submit" class="btn btn-form btn-primary display-4">ОТПРАВИТЬ</button></span> </form> </div> </div> </div>
       </div>
     </div>
   </div>
