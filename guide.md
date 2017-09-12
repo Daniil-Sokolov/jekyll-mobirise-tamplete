@@ -22,6 +22,8 @@ images:
   alt: "Home 5"
 - image_path: /jekyll-mobirise-tamplete/assets/images/01.jpg
   alt: "Home 5"
+- image_path: /jekyll-mobirise-tamplete/assets/images/3.jpg
+  alt: "Home 5"
 ---
 
 <style>
@@ -29,6 +31,12 @@ images:
        background-image: url("/jekyll-mobirise-tamplete/assets/images/background514.jpg"); 
         }
 </style>
+
+
+
+<a href="/jekyll-mobirise-tamplete/assets/images/gallery01.jpg" class="item library">
+  <img src="/jekyll-mobirise-tamplete/assets/images/gallery01.jpg" alt="Home 5">
+</a>
 
 
 On this page will be writen instructions and guides
