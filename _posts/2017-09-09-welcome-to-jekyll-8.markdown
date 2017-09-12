@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-subtitle: "very well!"
+subtitle: "Beautiful mobile websites"
+description: "Full width intro with adjustable height, background image and a color overlay. Click any text to edit or style it."
 date:   2017-09-12
 categories: jekyll update
 image_path: /jekyll-mobirise-tamplete/assets/images/background514.jpg
