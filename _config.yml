@@ -26,8 +26,9 @@ logo: /jekyll-mobirise-tamplete/assets/images/logo2.png
 
 
 #HOME PAGE HERO-FORM
-hero-img: /jekyll-mobirise-tamplete/assets/images/0213.jpg
+hero-img: /jekyll-mobirise-tamplete/assets/images/gallery06.jpg
 hero-intro: Mobirise тема для Jekyll
+hero-subtitle: Очередной шаблон для Jekyll, но с использованием нового инструмента
 hero-description: Тема для Jekyll созданная в визуальном конструкторе сайтов Mobirise. Адаптивный дизайн, удобное написание постов, приятный внешний вид и все преимущества статического сайта.
 
 
