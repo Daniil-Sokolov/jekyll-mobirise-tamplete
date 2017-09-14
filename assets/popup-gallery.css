@@ -1,5 +1,6 @@
-.library .item{display:inline-block;margin-top:2px;margin-bottom:2px;}
+.library .item{display:inline-block;margin-top:2px;margin-bottom:2px;} 
 .library a{display:inline-block;width:32%;}
+.library a:hover {display:inline-block;width:32%; transform: rotate(2deg) scale(1.1,1.1);}
 .library img{max-width:100%;}
 .mfp-bg{top:0;left:0;width:100%;height:100%;z-index:1042;overflow:hidden;position:fixed;background:#0b0b0b;opacity:0.8;}
 .mfp-wrap{top:0;left:0;width:100%;height:100%;z-index:1043;position:fixed;outline:none !important;-webkit-backface-visibility:hidden;}
