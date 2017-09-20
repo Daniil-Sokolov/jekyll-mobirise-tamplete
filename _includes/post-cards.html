@@ -9,6 +9,10 @@
         
         <div class="row">
         {% for post in paginator.posts %}
+       
+
+
+<!--
         <a href="{{ post.url | relative_url }}">
             <div class="card p-3 col-12 col-md-6 col-lg-4">
                 <div class="card-wrapper">
@@ -33,9 +37,39 @@
                     </div>
                 </div>
             </div>
-          </a>
+          </a>  -->
+
+         
+
+        
+          <div class="card p-3 col-12 col-md-6 col-lg-4">
+          <a href="{{ post.url | relative_url }}">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <img src="{{ post.image_path }}" alt="Mobirise" media-simple="true">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style display-7">
+                            {{ post.title | escape }}
+                        </h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            {{ post.subtitle | escape }}
+                            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                            <p><span class="post-meta">{{ post.date | date: date_format }}</span></p>
+                        </p>
+                    </div>
+                    
+                </div>
+                </a>
+            </div>
+                    
+
+
+
 
          {% endfor %}
+
+
 
 
         </div>
