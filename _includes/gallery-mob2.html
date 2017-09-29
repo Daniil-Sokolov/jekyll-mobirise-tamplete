@@ -1,0 +1,17 @@
+<section class="mbr-gallery mbr-slider-carousel cid-quJrVOyir3">
+    <div class="mbr-gallery-row">
+        <div class="mbr-gallery-layout-default">
+            
+
+    {% for image in page.images %}
+    <a href="{{ image.image_path }}" class="mbr-gallery-item mbr-gallery-item--p0 item">
+        <img src="{{ image.image_path }}" alt="{{ image.title }}">
+        <span class="icon-focus"></span>
+    </a>
+    {% endfor %}
+             
+       </div> 
+    </div>
+
+
+</section>
