@@ -25,6 +25,14 @@ github_username:  jekyll
 logo: /jekyll-mobirise-tamplete/assets/images/logo2.png
 
 
+#MODAL FORM GOOGLE
+form-action: https://docs.google.com/forms/d/e/1FAIpQLSeFrML92lgcDWWi6wspTem2R0SpUvhr9p67iWrkL3tdI1NVgw/formResponse
+form-name: entry.1473225497
+form-email: entry.1363834347
+form-phone: entry.273114308
+form-messege: entry.1186928248
+
+
 #HOME PAGE HERO-FORM
 hero-img: /jekyll-mobirise-tamplete/assets/images/gallery06.jpg
 hero-intro: Mobirise тема для Jekyll
