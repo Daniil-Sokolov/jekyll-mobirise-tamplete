@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "1212 Welcome to Jekyll!"
 subtitle: "very well!"
-date:   2017-09-09 14:19:43 +0300
+date:   2017-09-30
 categories: jekyll update
-image_path: /jekyll-mobirise-tamplete/assets/images/gallery03.jpg
+image_path: /jekyll-mobirise-tamplete/assets/images/gallery01.jpg
+img: /jekyll-mobirise-tamplete/assets/images/01.jpg
+alt-img: gallery01
 ---
 
-
+{% include img.html %}
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
