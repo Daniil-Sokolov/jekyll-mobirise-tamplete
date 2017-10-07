@@ -29,7 +29,6 @@ alt-img: gallery01
 ---
 
 
-
 {% include img.html %}
 
 
