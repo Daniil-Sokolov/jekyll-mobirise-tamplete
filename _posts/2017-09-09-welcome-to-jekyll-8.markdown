@@ -29,10 +29,17 @@ img: /jekyll-mobirise-tamplete/assets/images/gallery00.jpg
 alt-img: gallery01
 ---
 
+<div class="row">
 
+  <div class="col-12 col-md-6">
+    {% include img.html %}
+  </div>
 
+  <div class="col-12 col-md-6">
+    {% include gallery.html %}
+  </div>
 
-{% include img.html %}
+</div>
 
 
 
