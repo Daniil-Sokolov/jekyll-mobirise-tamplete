@@ -4,7 +4,7 @@ title:  "Welcome to Jekyll! 1"
 subtitle: "very well!"
 date:   2017-09-09 14:19:43 +0300
 categories: jekyll update
-image_path: /jekyll-mobirise-tamplete/assets/images/gallery04.jpg
+image_path: /assets/images/gallery04.jpg
 ---
 
 

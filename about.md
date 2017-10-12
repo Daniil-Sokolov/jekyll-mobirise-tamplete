@@ -4,7 +4,7 @@ title: About
 subtitle: Jekyll Mobirise theme
 description: Wonderfull
 permalink: /about/
-image_path: /jekyll-mobirise-tamplete/assets/images/gallery07.jpg
+image_path: /assets/images/gallery07.jpg
 ---
 
 

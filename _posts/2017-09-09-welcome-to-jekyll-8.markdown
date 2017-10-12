@@ -5,27 +5,27 @@ subtitle: "Beautiful mobile websites"
 description: "Full width intro with adjustable height, background image and a color overlay. Click any text to edit or style it."
 date:   2017-09-12
 categories: jekyll update
-image_path: /jekyll-mobirise-tamplete/assets/images/gallery00.jpg
+image_path: /assets/images/gallery00.jpg
 images:
-- image_path: /jekyll-mobirise-tamplete/assets/images/background514.jpg
+- image_path: /assets/images/background514.jpg
   alt: "0"
-- image_path: /jekyll-mobirise-tamplete/assets/images/0212.jpg
+- image_path: /assets/images/0212.jpg
   alt: "1"
-- image_path: /jekyll-mobirise-tamplete/assets/images/gallery05.jpg
+- image_path: /assets/images/gallery05.jpg
   alt: "2"
-- image_path: /jekyll-mobirise-tamplete/assets/images/2.jpg
+- image_path: /assets/images/2.jpg
   alt: "3"
-- image_path: /jekyll-mobirise-tamplete/assets/images/gallery01.jpg
+- image_path: /assets/images/gallery01.jpg
   alt: "4"
-- image_path: /jekyll-mobirise-tamplete/assets/images/gallery00.jpg
+- image_path: /assets/images/gallery00.jpg
   alt: "5"
-- image_path: /jekyll-mobirise-tamplete/assets/images/1.jpg
+- image_path: /assets/images/1.jpg
   alt: "6"
-- image_path: /jekyll-mobirise-tamplete/assets/images/01.jpg
+- image_path: /assets/images/01.jpg
   alt: "7"
-- image_path: /jekyll-mobirise-tamplete/assets/images/3.jpg
+- image_path: /assets/images/3.jpg
   alt: "8"
-img: /jekyll-mobirise-tamplete/assets/images/gallery00.jpg
+img: /assets/images/gallery00.jpg
 alt-img: gallery01
 ---
 
