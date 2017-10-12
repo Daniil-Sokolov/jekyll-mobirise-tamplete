@@ -22,7 +22,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
-logo: /jekyll-mobirise-tamplete/assets/images/logo2.png
+logo: /assets/images/logo2.png
 
 
 #MODAL FORM GOOGLE
@@ -34,22 +34,22 @@ form-messege: entry.1186928248
 
 
 #HOME PAGE HERO-FORM
-hero-img: /jekyll-mobirise-tamplete/assets/images/gallery06.jpg
+hero-img: /assets/images/gallery06.jpg
 hero-intro: Mobirise тема для Jekyll
 hero-subtitle: Очередной шаблон для Jekyll, но с использованием нового инструмента
 hero-description: Тема для Jekyll созданная в визуальном конструкторе сайтов Mobirise. Адаптивный дизайн, удобное написание постов, приятный внешний вид и все преимущества статического сайта.
 
 
 #HOME PAGE SLIDER
-slide-img1: /jekyll-mobirise-tamplete/assets/images/3.jpg
+slide-img1: /assets/images/3.jpg
 slide-title1: Слайд 1
 slide-subtitle1: Описание к 1 слайду
 
-slide-img2: /jekyll-mobirise-tamplete/assets/images/background514.jpg
+slide-img2: /assets/images/background514.jpg
 slide-title2: Слайд 2
 slide-subtitle2: Описание к 2 слайду
 
-slide-img3: /jekyll-mobirise-tamplete/assets/images/gallery00.jpg
+slide-img3: /assets/images/gallery00.jpg
 slide-title3: Слайд 3
 slide-subtitle3: Описание к 3 слайду
 
@@ -60,7 +60,7 @@ slide-button: Кнопка
 #HOME PAGE MEDIA-CONTENT
 madia-content-title: Counters and media
 madia-content-subtitle: Responsive block with counters and media.
-madia-content-img: /jekyll-mobirise-tamplete/assets/images/gallery00.jpg
+madia-content-img: /assets/images/gallery00.jpg
 
 madia-content-number1: 100
 madia-content-number-title1: Unlimited websites
@@ -82,23 +82,23 @@ madia-content-number-subtitle4: Choose from the large selection of latest pre-ma
 
 #HOME PAGE GALLERY
 images:
-- image_path: /jekyll-mobirise-tamplete/assets/images/background514.jpg
+- image_path: /assets/images/background514.jpg
   alt: "Home 2"
-- image_path: /jekyll-mobirise-tamplete/assets/images/0212.jpg
+- image_path: /assets/images/0212.jpg
   alt: "Home 3"
-- image_path: /jekyll-mobirise-tamplete/assets/images/gallery05.jpg
+- image_path: /assets/images/gallery05.jpg
   alt: "Home 4"
-- image_path: /jekyll-mobirise-tamplete/assets/images/2.jpg
+- image_path: /assets/images/2.jpg
   alt: "Home 5"
-- image_path: /jekyll-mobirise-tamplete/assets/images/gallery01.jpg
+- image_path: /assets/images/gallery01.jpg
   alt: "Home 5"
-- image_path: /jekyll-mobirise-tamplete/assets/images/gallery00.jpg
+- image_path: /assets/images/gallery00.jpg
   alt: "Home 5"
-- image_path: /jekyll-mobirise-tamplete/assets/images/1.jpg
+- image_path: /assets/images/1.jpg
   alt: "Home 5"
-- image_path: /jekyll-mobirise-tamplete/assets/images/01.jpg
+- image_path: /assets/images/01.jpg
   alt: "Home 5"
-- image_path: /jekyll-mobirise-tamplete/assets/images/3.jpg
+- image_path: /assets/images/3.jpg
   alt: "Home 5"
 
 
