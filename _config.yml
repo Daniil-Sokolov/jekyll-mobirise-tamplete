@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Мой сайт Jekyll
-description: Тема для Jekyll созданная в визуальном конструкторе сайтов Mobirise. Адаптивный дизайн, удобное написание постов, приятный внешний вид и все преимущества статического сайта. 
+title: HiStat
+description: Блог, в котором будут описания того как с малым багажом знаний и без финансовых вложений создать свой сайт. Типа гайды для чайников. 
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -35,9 +35,9 @@ form-messege: entry.1186928248
 
 #HOME PAGE HERO-FORM
 hero-img: /assets/images/gallery06.jpg
-hero-intro: Mobirise тема для Jekyll
-hero-subtitle: Очередной шаблон для Jekyll, но с использованием нового инструмента
-hero-description: Тема для Jekyll созданная в визуальном конструкторе сайтов Mobirise. Адаптивный дизайн, удобное написание постов, приятный внешний вид и все преимущества статического сайта.
+hero-intro: Хайлоад статика
+hero-subtitle: Блог про генератор статических сайтов Jekyll
+hero-description: Не первый и не последний, но в данный отрезок времени один из не многих, русскоязычный блог, посвященный изучению генератора статических сайтов Jekyll.
 
 
 #HOME PAGE SLIDER
