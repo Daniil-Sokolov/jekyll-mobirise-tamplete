@@ -9,3 +9,9 @@ $(document).ready(function(){
 	});
 
 })
+
+$(function() {
+
+$(document).pjax('.pjax-container', {fragment: '.pjax-container'})
+
+});
