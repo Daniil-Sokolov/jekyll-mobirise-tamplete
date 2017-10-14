@@ -13,5 +13,5 @@ $(document).ready(function(){
 
     $(function(){
       // pjax
-      $(document).pjax('.pjax-container', {fragment: '.pjax-container'});
+      $(document).pjax('a', '.pjax-container', {fragment: '.pjax-container'});
     })
