@@ -9,28 +9,29 @@ author: Danil
 image_path: /assets/images/gallery00.jpg
 images:
 - image_path: /assets/images/background514.jpg
-  alt: "0"
-- image_path: /assets/images/0212.jpg
   alt: "1"
-- image_path: /assets/images/gallery05.jpg
+- image_path: /assets/images/0212.jpg
   alt: "2"
-- image_path: /assets/images/2.jpg
+- image_path: /assets/images/gallery05.jpg
   alt: "3"
-- image_path: /assets/images/gallery01.jpg
+- image_path: /assets/images/2.jpg
   alt: "4"
-- image_path: /assets/images/gallery00.jpg
+- image_path: /assets/images/gallery01.jpg
   alt: "5"
-- image_path: /assets/images/1.jpg
+- image_path: /assets/images/gallery00.jpg
   alt: "6"
-- image_path: /assets/images/01.jpg
+- image_path: /assets/images/1.jpg
   alt: "7"
-- image_path: /assets/images/3.jpg
+- image_path: /assets/images/01.jpg
   alt: "8"
+- image_path: /assets/images/3.jpg
+  alt: "9"
 img: /assets/images/gallery00.jpg
 alt-img: gallery01
 ---
 
-{% include img-plus-gallery.html %}
+{% include css-slider.html %}
+
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
@@ -51,7 +52,6 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
-
 
 
 {% include gallery.html %}
