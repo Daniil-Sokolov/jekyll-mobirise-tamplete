@@ -10,8 +10,8 @@ $(document).ready(function(){
 
 })
 
-$(function() {
 
-$(document).pjax('.pjax-container', {fragment: '.pjax-container'})
-
-});
+    $(function(){
+      // pjax
+      $(document).pjax('.pjax-container', {fragment: '.pjax-container'});
+    })
