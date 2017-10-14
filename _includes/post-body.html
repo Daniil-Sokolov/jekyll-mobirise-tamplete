@@ -4,7 +4,7 @@
 
     <div class="container">
         <div class="media-container-row">
-            <div class="mbr-black col-12 col-md-8 mbr-fonts-style display-7">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
 
               <p class="post-meta"> Дата: 
     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -20,16 +20,14 @@
                 {{ content }}
 
 
-      	<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  		    {% if site.disqus.shortname %}
-    	     {% include disqus_comments.html %}
-  		    {% endif %}
-		    </article>
 
 
+<hr>
+
+    {% include share.html %}
 
       <p>
-        <h3 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2 mbr-black">Навигация между постами</h3>
+        <h3 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2 mbr-text">Навигация между постами</h3>
         <div class="Previous-next pag align-center">
           {% if page.previous.url %}
             <a class="previous pag col-6" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
@@ -41,6 +39,13 @@
       </p>
 
 
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+          {% if site.disqus.shortname %}
+           {% include disqus_comments.html %}
+          {% endif %}
+        </article>
+
+
 
             </div>
         </div>
@@ -50,7 +55,7 @@
 
 <section class="features3 cid-quPf1lYfkY">
 <div class="container">
-  <h2 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2">Похожие посты</h2>
+  <h2 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2 mbr-text">Похожие посты</h2>
       <div class="row">
         {% for post in site.related_posts limit:3 %}
           <div class="card p-3 col-12 col-md-4 col-lg-4">
