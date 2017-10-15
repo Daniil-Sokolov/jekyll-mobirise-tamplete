@@ -36,3 +36,5 @@ On this page will be writen instructions and guides
 
 
 {% include gallery.html %}
+
+{% include mgpopup.html %}
