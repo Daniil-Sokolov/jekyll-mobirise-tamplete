@@ -115,12 +115,12 @@ phone: +7-966-750-45-74
 fax: нет
 
 link-name1: Имя ссылки 1
-link-name2: Имя ссылки 2
-link-name3: Имя ссылки 3
+link-name2: Карта сайта (sitemap.xml)
+link-name3: Новости (feed.xml)
 
 link1: https://daniil-sokolov.github.io/jekyll-mobirise-tamplete/
-link2: https://daniil-sokolov.github.io/jekyll-mobirise-tamplete/
-link3: https://daniil-sokolov.github.io/jekyll-mobirise-tamplete/
+link2: /sitemap.xml
+link3: /feed.xml
 
 
 #HOME SOC-LIST
