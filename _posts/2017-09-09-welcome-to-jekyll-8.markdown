@@ -58,15 +58,3 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-talk]: https://talk.jekyllrb.com/
 
 {% include mgpopup.html %}
-
-
-
-
-<ul class="align-center"><li>1. Установить Jekyll</li><li>2. Основы работы, структура файлов в Jekyll</li><li>3. Создание темы для Jekyll</li><li>4. Использование удобного функционала Jekyll</li><li>5. Ссылки на реально полезные ресурсы по Jekyll</li></ul>
-
-
-
-
-
-
-
