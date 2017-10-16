@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 subtitle: "very well!"
 date:   2017-09-09 14:19:43 +0300
-categories: c
+categories: a
 image_path: /assets/images/gallery06.jpg
 ---
 
