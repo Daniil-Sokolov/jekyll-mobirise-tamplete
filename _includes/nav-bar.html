@@ -76,53 +76,19 @@
 
       </div>
 
-      <div class="modal-body">
+      <div class="modal-body" style="background-color: #757575;">
           <div>
               <div class="form-container">
-                  <div class="media-container-column">
+                  <div class="media-container-column text-center">
                       <div data-form-alert="" hidden="" class="align-center"> Спасибо за заполнение анкеты! </div>
+
                       
+                      {% include rss.html %}
 
-                       <script type="text/javascript">var submitted=false;</script>
- <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='{{ "/sps/" | relative_url }}';}"></iframe>
-                      
+               <!--  {% include form.html %}  --> 
 
-                      <form class="mbr-form" action="{{ site.form-action }}" method="post" target="hidden_iframe" onsubmit="submitted=true;">
-                    
 
-                    <div data-for="name">
-                    <div class="form-group"> 
-                            <input type="text" class="form-control px-3" name="{{ site.form-name }}" data-form-field="Name" placeholder="Имя" required="" id="name-header15-i"> 
-                    </div> 
-                    </div>
-                     
 
-                     <div data-for="email"> 
-                        <div class="form-group"> 
-                            <input type="email" class="form-control px-3" name="{{ site.form-email }}" data-form-field="Email" placeholder="Email" required="" id="email-header15-i"> 
-                        </div> 
-                    </div> 
-                    
-
-                    <div data-for="phone">
-                     <div class="form-group">
-                      <input type="tel" class="form-control px-3" name="{{ site.form-phone }}" data-form-field="Phone" placeholder="Телефон" id="phone-header15-i"> 
-                  </div>
-                   </div> 
-
-                    </div> 
-                   
-
-                    <div data-for="textarea">
-                     <div class="form-group">
-                      <input type="textarea" class="form-control px-3" name="{{ site.form-messege }}" data-form-field="Textarea" placeholder="Сообщение" id="textarea-header15-i"> 
-                  </div>
-                   </div> 
-
-                    <span class="input-group-btn">
-                        <button  href="" type="submit" class="btn btn-form btn-primary display-4">ОТПРАВИТЬ</button>
-                    </span> 
-                      </form>
                   </div>
               </div>
           </div>

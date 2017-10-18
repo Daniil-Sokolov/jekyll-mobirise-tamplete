@@ -33,6 +33,10 @@ form-email: entry.1363834347
 form-phone: entry.273114308
 form-messege: entry.1186928248
 
+#SUB FORM GOOGLE
+form-action-sub: https://docs.google.com/forms/d/e/1FAIpQLSdC-0-72cP4Xkcgh-hf5Q5Hd1Ii9VczlQy38jBAn27TmxcbGA/formResponse
+form-email-sub: entry.1704459450
+
 
 #HOME PAGE HERO-FORM
 hero-img: /assets/images/gallery06.jpg
@@ -55,7 +59,7 @@ slide-title3: Слайд 3
 slide-subtitle3: Описание к 3 слайду
 
 
-slide-button: Кнопка
+slide-button: ПОДПИСАТЬСЯ
 
 
 #HOME PAGE MEDIA-CONTENT
