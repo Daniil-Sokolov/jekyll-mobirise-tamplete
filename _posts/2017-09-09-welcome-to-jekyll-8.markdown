@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-subtitle: "Beautiful mobile websites"
-description: "Full width intro with adjustable height, background image and a color overlay. Click any text to edit or style it."
+title:  "Jekyll сайт. Начало."
+subtitle: "Генератор статических сайтов, обучение для чайников и не програмистов."
+description: "В этом блоге в будущем будут опубликованы статьи на тему того, как создать статический сайт с помощью генератора статических сайтов Jekyll. Весь материал будет излогаться максимально просто, для продвижения этой крутой темы в массы.)))"
 date:   2017-09-12
-categories: g
+categories: Jekyll-learning
 author: Danil
-image_path: /assets/images/gallery00.jpg
+image_path: /assets/images/background514.jpg
 images:
 - image_path: /assets/images/background514.jpg
   alt: "1"
