@@ -26,6 +26,15 @@
                 <div class="mbr-white col-md-12">
                     <div class="row justify-content-md-center">
 
+                    <p class="col-12 align-center post-meta"> Дата: 
+    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        {{ page.date | date: date_format }}
+        </time>
+        {% if page.author %}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Автор: {{ page.author }}</span></span>
+        {% endif %}</p>
+
                     <p class="col-12 align-center">
                         <a class="btn  btn-white-outline display-4" href="#myModal" data-toggle="modal" role="button">
                             {{ site.slide-button }}

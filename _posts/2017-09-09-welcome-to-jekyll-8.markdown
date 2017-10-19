@@ -3,9 +3,9 @@ layout: post
 title:  "Jekyll сайт. Начало."
 subtitle: "Генератор статических сайтов, обучение для чайников и не програмистов."
 description: "В этом блоге в будущем будут опубликованы статьи на тему того, как создать статический сайт с помощью генератора статических сайтов Jekyll. Весь материал будет излогаться максимально просто, для продвижения этой крутой темы в массы.)))"
-date:   2017-09-12
+date:   2017-10-19
 categories: Jekyll-learning
-author: Danil
+author: Данил
 image_path: /assets/images/background514.jpg
 images:
 - image_path: /assets/images/background514.jpg
