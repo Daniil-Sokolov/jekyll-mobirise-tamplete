@@ -1,22 +1,23 @@
 ---
 layout: page
-permalink: /categories/
-title: Categories
+permalink: /tags/
+title: Рубрики
+subtitle: Разделение ресурса на более узкие тематики
+description: Для более простого поиска по постам на сайте
 image_path: /assets/images/0310.jpg
-published: false
 ---
 
 <div id="archives">
-{% for category in site.categories %}
+{% for tag in site.tags %}
   <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
+    {% capture tag_name %}{{ tag | first }}{% endcapture %}
+    <div id="#{{ tag_name | slugize }}"></div>
     <p></p>
     
-    <h2 class="category-head mbr-section-subtitle mbr-bold pb-3 mbr-fonts-style display-2">{{ category_name }}</h2>
-    <a name="{{ category_name | slugize }}"></a>
+    <h2 class="tag-head mbr-section-subtitle mbr-bold pb-3 mbr-fonts-style display-2">{{ tag_name }}</h2>
+    <a name="{{ tag_name | slugize }}"></a>
     <div class="row">
-    {% for post in site.categories[category_name] %}
+    {% for post in site.tags[tag_name] %}
     <article class="archive-item col-12 col-md-6">
       <span>{{ post.date | date_to_string }}</span>
       <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>

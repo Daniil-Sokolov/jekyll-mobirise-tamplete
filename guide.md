@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Guide
-subtitle: Jekyll Mobirise theme
-description: Wonderfull
+title: Краткое руководство
+subtitle: Перечисление и описание решений, использующихся в данной теме для Jekyll
+description: Меню, лого, заголовки, описания, кнопки, картинки, галлерея, pjax
 permalink: /guide/
 image_path: /assets/images/gallery00.jpg
 images:

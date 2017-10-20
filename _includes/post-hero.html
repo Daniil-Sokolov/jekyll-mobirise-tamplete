@@ -1,7 +1,7 @@
 <section class="header1 cid-quPf8CGR21 mbr-parallax-background" id="header1-o" data-rv-view="609" style="background-image: url({{ page.image_path }});">
 
 
-    <div class="mbr-overlay" style="opacity: 0.2; background-color: rgb(0, 0, 0);">
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);">
     </div>
 
     <div class="container">
@@ -26,14 +26,24 @@
                 <div class="mbr-white col-md-12">
                     <div class="row justify-content-md-center">
 
-                    <p class="col-12 align-center post-meta"> Дата: 
-    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        {{ page.date | date: date_format }}
-        </time>
-        {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Автор: {{ page.author }}</span></span>
-        {% endif %}</p>
+                    <p class="mbr-text align-center mbr-fonts-style display-5 col-12 post-meta"> <i> Дата: 
+                        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                        {{ page.date | date: date_format }}
+                        </time>
+                        {% if page.author %}
+                        • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                            <span itemprop="name">Автор: {{ page.author }}</span></span>
+                            {% endif %}
+                            </i>
+                    </p>
+
+
+                    <p class="mbr-text align-center mbr-fonts-style display-5 col-12">
+                       <i>Рубрика:</i> <b>{{ page.tag }}</b> 
+                    </p>
+
+
 
                     <p class="col-12 align-center">
                         <a class="btn  btn-white-outline display-4" href="#myModal" data-toggle="modal" role="button">
@@ -41,17 +51,17 @@
                         </a>
                     </p>
 
-                    <p class="mbr-text align-center pb-3 mbr-fonts-style display-5 col-12 col-md-4">
+                    <!-- <p class="mbr-text align-center pb-3 mbr-fonts-style display-5 col-12 col-md-4">
                         <b>{{ site.phone }}</b>
-                    </p>
+                    </p> -->
 
                     <p class="mbr-text align-center pb-3 mbr-fonts-style display-5 col-12 col-md-4">
                         <b>{{ site.email}}</b>
                     </p>
 
-                    <p class="mbr-text align-center pb-3 mbr-fonts-style display-5 col-12 col-md-4">
+                  <!--  <p class="mbr-text align-center pb-3 mbr-fonts-style display-5 col-12 col-md-4">
                         <b>{{ site.city}}</b>
-                    </p>
+                    </p> -->
 
                     </div>
 
