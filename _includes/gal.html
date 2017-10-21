@@ -1,0 +1,12 @@
+<div class="qqq">
+	<div class="row">
+		{% for image in page.images %}
+		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+			<a href="{{ image.image_path }}" class="pop">
+				<img src="{{ image.image_path }}" alt="{{ image.title }}">
+				<span class="icon-focus"></span>
+			</a>	
+		</div>
+		{% endfor %}
+	</div>
+</div>

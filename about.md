@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About
-subtitle: Jekyll Mobirise theme
-description: Wonderfull
+title: О сайте
+subtitle: "Генератор статических сайтов, обучение для чайников и не програмистов."
+description: "В этом блоге в будущем будут опубликованы статьи на тему того, как создать статический сайт с помощью генератора статических сайтов Jekyll. Весь материал будет излогаться максимально просто, для продвижения этой крутой темы в массы.)))"
 permalink: /about/
 image_path: /assets/images/gallery07.jpg
 ---

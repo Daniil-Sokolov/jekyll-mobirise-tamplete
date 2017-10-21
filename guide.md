@@ -35,6 +35,8 @@ alt-img: gallery01
 On this page will be writen instructions and guides
 
 
-{% include gallery.html %}
+{% include gal.html %}
+
+{% include img-plus-gal.html %}
 
 {% include mgpopup.html %}
