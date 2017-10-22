@@ -8,13 +8,6 @@ categories: Education
 tag: "Обучение Jekyll"
 author: Данил
 image_path: /assets/images/post2/j1.jpg
-images:
-- image_path: /assets/images/post1/jekk1.jpeg
-  alt: "1"
-- image_path: /assets/images/post1/j2.jpg
-  alt: "2"
-- image_path: /assets/images/post1/j3.jpg
-  alt: "3"
 img: /assets/images/post2/j2.jpg
 alt-img: gallery01
 ---
@@ -42,18 +35,57 @@ alt-img: gallery01
 
 5. В открывшемся окне команндной строки **проверяем установку ruby и gem**. По очереди вводим эти две команды, если всё установилось, то в окне вы увидите версии установленных Ruby и Gem:
 	{% highlight ruby %} 
-		1 команда:	ruby -v
-		2 команда:	gem -v
+	 	ruby -v
+		gem -v
 	{% endhighlight %}
 
+----------
 
+## 2. Установка Jekyll
 
+<a href="/assets/images/post2/j4.jpg" class="library item">
+  <img src="/assets/images/post2/j4.jpg" alt="step2">
+</a>
 
-Пост не закончен
+### Решение проблеммы с сертификатом сервера
 
+Очень коротко, вводим по почереди 2 команды:
+	{% highlight ruby %} 
+	 	gem sources --remove https://rubygems.org/
+		gem sources -a http://rubygems.org/
+	{% endhighlight %}
 
-{% include gallery.html %}
+### Устанавливаем Jekyll
+
+**Снова только команды:**
+
+**Утановка:**
+	{% highlight ruby %} 
+	 	gem install jekyll bundler
+	{% endhighlight %}
+
+С учетом того что мы устранили ошибку сертификатов сервера, Jekyll должен установиться без ошибок и проблем
+
+**Проверка версий и краткая сводка по доступным командам**
+	{% highlight ruby %} 
+	 	jekyll -v
+	 	jekyll -h
+	{% endhighlight %}
+
+После ввода этих команнд вы увидете версию Jekyll, которая установилась на ваш компьютер. На момент написания это **jekyll 3.6.0**.
+
+А так же после ввода команды **jekyll -h** вы увидите список команд доступных для ввода и работы с Jekyll.
+
+<a href="/assets/images/post2/j5.png" class="library item">
+  <img src="/assets/images/post2/j5.png" alt="step3">
+</a>
+
+<a href="/assets/images/post2/j6.png" class="library item">
+  <img src="/assets/images/post2/j6.png" alt="step4">
+</a>
+
+**Вуаля!!!** 
+
+Jekyll установлен, дальше будем учиться его запускать и работать с файлами проекта.
+
 {% include mgpopup.html %}
-
-
-{% highlight ruby %}  {% endhighlight %}
