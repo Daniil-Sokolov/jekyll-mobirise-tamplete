@@ -16,14 +16,14 @@ image_path: /assets/images/0310.jpg
     
     <h2 class="tag-head mbr-section-subtitle mbr-bold pb-3 mbr-fonts-style display-2">{{ tag_name }}</h2>
     <a name="{{ tag_name | slugize }}"></a>
-    <div class="row">
+
     {% for post in site.tags[tag_name] %}
-    <article class="archive-item col-12 col-md-6">
+    <article class="archive-item">
       <span>{{ post.date | date_to_string }}</span>
       <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
     </article>
     {% endfor %}
-    </div>
+
   </div>
 {% endfor %}
 </div>
