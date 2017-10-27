@@ -23,8 +23,8 @@
                         </h4>
                         <p class="mbr-text mbr-fonts-style display-7">
                             {{ post.subtitle | escape }}
-                            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-                            <p><span class="post-meta">{{ post.date | date: date_format }}</span></p>
+                            
+                            <p><time class="post-meta">{% include date.html date=post.date %}</time></p>
                         </p>
                     </div>
                     

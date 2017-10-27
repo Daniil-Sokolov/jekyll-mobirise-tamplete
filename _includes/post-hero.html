@@ -28,12 +28,13 @@
 
                     <p class="mbr-text align-center mbr-fonts-style display-5 col-12 post-meta"> <i> Дата: 
                         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-                        {{ page.date | date: date_format }}
+                            {% include date.html date=page.date %}
+                       <!-- {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                        {{ page.date | date: date_format }} -->
                         </time>
                         {% if page.author %}
-                        • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                            <span itemprop="name">Автор: {{ page.author }}</span></span>
+                        <p class="mbr-text align-center mbr-fonts-style display-5 post-meta"><span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                            <span itemprop="name">Автор: {{ page.author }}</span></span></p>
                             {% endif %}
                             </i>
                     </p>
