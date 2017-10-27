@@ -10,23 +10,23 @@ author: Данил
 image_path: /assets/images/post1/jekk.jpg
 images:
 - image_path: /assets/images/post1/jekk1.jpeg
-  alt: "1"
+  alt: "histat.ml-post1"
 - image_path: /assets/images/post1/j2.jpg
-  alt: "2"
+  alt: "histat.ml-post1"
 - image_path: /assets/images/post1/j3.jpg
-  alt: "3"
+  alt: "histat.ml-post1"
 - image_path: /assets/images/post1/j4.jpg
-  alt: "4"
+  alt: "histat.ml-post1"
 - image_path: /assets/images/post1/j5.jpg
-  alt: "5"
+  alt: "histat.ml-post1"
 - image_path: /assets/images/post1/j6.jpg
-  alt: "6"
+  alt: "histat.ml-post1"
 - image_path: /assets/images/post1/j10.jpg
-  alt: "7"
+  alt: "histat.ml-post1"
 - image_path: /assets/images/post1/j11.jpg
-  alt: "8"
+  alt: "histat.ml-post1"
 - image_path: /assets/images/post1/j12.jpg
-  alt: "9"
+  alt: "histat.ml-post1"
 img: /assets/images/post1/j9.jpg
 alt-img: gallery01
 ---

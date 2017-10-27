@@ -19,7 +19,7 @@ alt-img: gallery01
 ## 1. Установка Ruby на ОС Windows
 
 <a href="/assets/images/post2/j3.jpg" class="library item">
-  <img src="/assets/images/post2/j3.jpg" alt="step1">
+  <img src="/assets/images/post2/j3.jpg" alt="step1 histat.ml-post2">
 </a>
 
 ----------
@@ -30,7 +30,7 @@ alt-img: gallery01
 4. После завершения установки **запускаем командную строку** (Такое окошко с черным фоном и белыми буквами). Можно запустить четырьмя способами:
 - Зажимаем кнопку "Win" и нажимаем "R" > вводим короткую команду "cmd"
 - Меню "Пуск" > В Windows 10 выбираем пункт "Служебные", в более ранних версиях "Стандартные" > "Выполнить" > вводим короткую команду "cmd"
-- Зажимаем клавишу "Shift" и нажимаеи правую кнопку мыши > в выпадающем при этом меню нажимаем пункт "Открыть/Запустить команндную строку", рядом с этим пунктом будет характерный значек
+- Зажимаем клавишу "Shift" и нажимаеи правую кнопку мыши > в выпадающем при этом меню нажимаем пункт "Открыть окно команд", рядом с этим пунктом будет характерный значек
 - в нужной нам открытой папке в верхней адресной строке вводим короткую команду "cmd" и нажимаем "Enter"
 
 5. В открывшемся окне команндной строки **проверяем установку ruby и gem**. По очереди вводим эти две команды, если всё установилось, то в окне вы увидите версии установленных Ruby и Gem:
@@ -44,7 +44,7 @@ alt-img: gallery01
 ## 2. Установка Jekyll
 
 <a href="/assets/images/post2/j4.jpg" class="library item">
-  <img src="/assets/images/post2/j4.jpg" alt="step2">
+  <img src="/assets/images/post2/j4.jpg" alt="step2 histat.ml-post2">
 </a>
 
 ### Решение проблеммы с сертификатом сервера
@@ -77,11 +77,11 @@ alt-img: gallery01
 А так же после ввода команды **jekyll -h** вы увидите список команд доступных для ввода и работы с Jekyll.
 
 <a href="/assets/images/post2/j5.png" class="library item">
-  <img src="/assets/images/post2/j5.png" alt="step3">
+  <img src="/assets/images/post2/j5.png" alt="step3 histat.ml-post2">
 </a>
 
 <a href="/assets/images/post2/j6.png" class="library item">
-  <img src="/assets/images/post2/j6.png" alt="step4">
+  <img src="/assets/images/post2/j6.png" alt="step4 histat.ml-post2">
 </a>
 
 **Вуаля!!!** 
