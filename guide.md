@@ -10,7 +10,7 @@ links:
   title: 1. RubyInstaller
 - link_path: https://git-scm.com/ 
   title: 2. Git
-- link_path: https://rubyinstaller.org/ 
+- link_path: https://desktop.github.com/ 
   title: 3. GitHub Desktop
 - link_path: http://www.sublimetext.com/ 
   title: 4. Sublime text 3
