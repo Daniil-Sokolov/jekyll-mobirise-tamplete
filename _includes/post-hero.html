@@ -31,13 +31,15 @@
                             {% include date.html date=page.date %}
                        <!-- {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
                         {{ page.date | date: date_format }} -->
-                        </time>
+                        </time></i></p>
+
+
                         {% if page.author %}
-                        <p class="mbr-text align-center mbr-fonts-style display-5 post-meta"><span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                            <span itemprop="name">Автор: {{ page.author }}</span></span></p>
+                        <p class="mbr-text align-center mbr-fonts-style display-5 col-12 post-meta"><i><span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                            <span itemprop="name">Автор: {{ page.author }}</span></span></i></p>
                             {% endif %}
-                            </i>
-                    </p>
+                    
+                    
 
 
                     <p class="mbr-text align-center mbr-fonts-style display-5 col-12">
