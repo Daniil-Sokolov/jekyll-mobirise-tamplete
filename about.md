@@ -5,19 +5,35 @@ subtitle: "Генератор статических сайтов, обучен�
 description: "В этом блоге в будущем будут опубликованы статьи на тему того, как создать статический сайт с помощью генератора статических сайтов Jekyll. Весь материал будет излогаться максимально просто, для продвижения этой крутой темы в массы.)))"
 permalink: /about/
 image_path: /assets/images/gallery07.jpg
+images:
+- image_path: /assets/images/background514.jpg
+  alt: "Home 2"
+- image_path: /assets/images/0212.jpg
+  alt: "Home 3"
+- image_path: /assets/images/gallery05.jpg
+  alt: "Home 4"
+- image_path: /assets/images/2.jpg
+  alt: "Home 5"
+- image_path: /assets/images/gallery01.jpg
+  alt: "Home 5"
+- image_path: /assets/images/gallery00.jpg
+  alt: "Home 5"
+- image_path: /assets/images/1.jpg
+  alt: "Home 5"
+- image_path: /assets/images/01.jpg
+  alt: "Home 5"
+- image_path: /assets/images/3.jpg
+  alt: "Home 5"
+img: /assets/images/gallery00.jpg
+alt-img: gallery01
 ---
 
+## Описание есть, а вот и немного картиночек)))
 
+{% include img.html %}
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+{% include gallery.html %}
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+{% include img-plus-gal.html %}
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+{% include mgpopup.html %}
