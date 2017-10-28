@@ -5,7 +5,7 @@ subtitle: "Статика, динамика, CMS, генераторы стат�
 description: "Причем тут генераторы статических сайтов???"
 date:   2017-10-19
 categories: Education
-tag: "Обучение Jekyll"
+tag: "Размышления"
 author: Данил
 image_path: /assets/images/post1/jekk.jpg
 images:
