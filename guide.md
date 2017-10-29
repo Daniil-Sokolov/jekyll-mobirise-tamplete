@@ -45,6 +45,12 @@ tlinks:
   ttitle: 9. WebDesing Master
 ---
 
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/qBw0MzMzMx0" frameborder="0" allowfullscreen></iframe>
+
+----------
+
+
 ## Пройдемся по списку нужных нам для обучения программ
 
 <div class="archi-item">
@@ -52,6 +58,8 @@ tlinks:
 	<p><a href="{{ link.link_path }}" target="_blank">{{ link.title }}</a></p>
 {% endfor %}
 </div>
+
+----------
 
 ## Теперь список полезных сайтов и каналов на YouTube
 
@@ -61,6 +69,7 @@ tlinks:
 {% endfor %}
 </div>
 
+----------
 
 <style>
   .archi-item a {
