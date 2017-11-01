@@ -5,7 +5,7 @@ subtitle: "Ликбез на тему ^Почему так много подго
 description: "4 базовых способа работы с Jekyll, пока что только теория ибо упоминание этих методов имеет место быть"
 date: 2017-11-01
 categories: Education
-tag: "Обучение Jekyll"
+tag: "Размышления"
 author: Данил
 image_path: /assets/images/post4/j1.jpg
 ---
