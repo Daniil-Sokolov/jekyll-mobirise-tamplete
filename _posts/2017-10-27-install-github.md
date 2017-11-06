@@ -10,6 +10,11 @@ author: Данил
 image_path: /assets/images/post3/j1.jpg
 ---
 
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/Z_S2A3Z8o4Y" frameborder="0" gesture="media" allowfullscreen></iframe>
+
+
+
 ## 1. Регистрируем аккаунт GitHub
 
 <a href="/assets/images/post3/j2.jpg" class="library item">
