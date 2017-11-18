@@ -32,11 +32,3 @@ CACHE MANIFEST
 {% endfor %}
 NETWORK:
 *
-
-
-
-
-
-
-
-
