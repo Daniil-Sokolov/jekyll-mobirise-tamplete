@@ -109,7 +109,7 @@ images:
 
 #HOME FEATURE
 features:
-- icon: bootstrap
+- icon: target
   title: Современно
   text: Использование генераторов статических сайтов в области сайтостроения очень удобный и современный подход
 - icon: touch
