@@ -10,6 +10,7 @@ author: Данил
 image_path: /assets/images/post2/j1.jpg
 img: /assets/images/post2/j2.jpg
 alt-img: gallery01
+permalink: /jekyll-install-on-windows/
 ---
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/al142oi8wC8" frameborder="0" gesture="media" allowfullscreen></iframe>

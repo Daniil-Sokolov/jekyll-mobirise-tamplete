@@ -8,6 +8,7 @@ categories: Education
 tag: "Обучение Jekyll"
 author: Данил
 image_path: /assets/images/post3/j1.jpg
+permalink: /jekyll-install-github/
 ---
 
 
