@@ -8,7 +8,6 @@ categories: Education
 tag: "Размышления"
 author: Данил
 image_path: /assets/images/post4/j1.jpg
-permalink: /jekyll-water-post1-when-we-start/
 ---
 
 ## Для чего столько программ установлено и заведен аккаунт на GitHub, если не показана суть работы с Jekyll?

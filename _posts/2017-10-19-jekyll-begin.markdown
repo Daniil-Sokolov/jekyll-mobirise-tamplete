@@ -29,7 +29,6 @@ images:
   alt: "histat.ml-post1"
 img: /assets/images/post1/j9.jpg
 alt-img: gallery01
-permalink: /static-vs-dinamic/
 ---
 
 {% include img.html %}
