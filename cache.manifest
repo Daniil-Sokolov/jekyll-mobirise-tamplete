@@ -1,0 +1,42 @@
+---
+layout: null
+---
+CACHE MANIFEST
+# rev {{ site.time | date_to_xmlschema }}
+/index.html
+/assets/web/assets/mobirise-icons/mobirise-icons.css
+/assets/tether/tether.min.css
+/assets/bootstrap/css/bootstrap-grid.min.css
+/assets/bootstrap/css/bootstrap-reboot.min.css
+/assets/dropdown/css/style.css
+/assets/socicon/css/styles.css
+/assets/theme/css/style.css
+/assets/mobirise-gallery/style.css
+/assets/mobirise/css/mbr-additional.css
+/assets/popup-gallery.css
+/assets/web/assets/jquery/jquery.min.js
+/assets/popper/popper.min.js
+/assets/tether/tether.min.js
+/assets/bootstrap/js/bootstrap.min.js
+/assets/smooth-scroll/smooth-scroll.js
+/assets/dropdown/js/script.min.js
+/assets/jarallax/jarallax.min.js
+/assets/viewport-checker/jquery.viewportchecker.js
+/assets/theme/js/script.js
+//yastatic.net/es5-shims/0.0.2/es5-shims.min.js
+//yastatic.net/share2/share.js
+/assets/jquery.magnific-popup.min.js
+/assets/jquery.pjax.js
+/assets/common.js
+{% for post in site.posts %}{{ post.id }}/
+{% endfor %}
+NETWORK:
+*
+
+
+
+
+
+
+
+
