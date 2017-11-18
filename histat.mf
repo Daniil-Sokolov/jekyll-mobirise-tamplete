@@ -23,8 +23,6 @@ CACHE MANIFEST
 /assets/jarallax/jarallax.min.js
 /assets/viewport-checker/jquery.viewportchecker.js
 /assets/theme/js/script.js
-//yastatic.net/es5-shims/0.0.2/es5-shims.min.js
-//yastatic.net/share2/share.js
 /assets/jquery.magnific-popup.min.js
 /assets/jquery.pjax.js
 /assets/common.js
