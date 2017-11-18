@@ -28,7 +28,7 @@ CACHE MANIFEST
 /assets/jquery.magnific-popup.min.js
 /assets/jquery.pjax.js
 /assets/common.js
-{% for page in site.pages %}{{ page.id }}/
+{% for page in site.pages %}{{ page.permalink }}/
 {% endfor %}
 {% for post in site.posts %}{{ post.id }}/
 {% endfor %}
