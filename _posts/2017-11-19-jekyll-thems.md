@@ -83,4 +83,3 @@ image_path: /assets/images/post7/j1.jpg
  }
 </style>
 
-{% include mgpopup.html %}

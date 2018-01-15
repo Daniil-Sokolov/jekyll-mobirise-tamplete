@@ -8,15 +8,22 @@ layout: compress
   {% include head.html %}
 
   <body>
-	
     {% include header.html %}
+
+
     <div id="pjax-container">
 
 
 		{{ content }}
+
+		{% include mgpopup.html %}
+
 	</div>
+	
+
     {% include footer.html %}
 
+    {% include assets.html %}
   </body>
 
 </html>

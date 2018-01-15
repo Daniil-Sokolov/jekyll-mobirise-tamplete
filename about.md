@@ -36,4 +36,3 @@ alt-img: gallery01
 
 {% include img-plus-gal.html %}
 
-{% include mgpopup.html %}

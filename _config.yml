@@ -169,3 +169,8 @@ paginate: 6
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# Server Config options
+livereload: true     # You no longer need to include --livereload
+reload_port: 5000    # If you don't want to use the default port

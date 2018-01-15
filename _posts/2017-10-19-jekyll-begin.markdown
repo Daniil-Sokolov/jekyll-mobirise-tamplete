@@ -140,4 +140,3 @@ Html документы, за визуальное оформление кото
 
 {% include gallery.html %}
 
-{% include mgpopup.html %}
