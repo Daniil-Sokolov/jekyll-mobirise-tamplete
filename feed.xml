@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     
      <title>HiStat</title>
-     <link href="/atom.xml" rel="self"/>
-     <id></id>
-     <updated>2018-01-17T21:04:04+03:00</updated>
+     <link href="http://localhost:4000/atom.xml" rel="self"/>
+     <id>http://localhost:4000</id>
+     <updated>2018-01-17T21:36:43+03:00</updated>
      
      <author>
        <name></name>
@@ -15,56 +15,56 @@
  
  <entry>
    <title>Как использовать авторские темы для Jekyll</title>
-   <link href="/education/2017/12/30/jekyll-thems.html"/>
-   <id>/education/2017/12/30/jekyll-thems</id>
+   <link href="http://localhost:4000/education/2017/12/30/jekyll-thems.html"/>
+   <id>http://localhost:4000/education/2017/12/30/jekyll-thems</id>
    <updated>2017-12-30T00:00:00+03:00</updated>
    <content type="html">&lt;p&gt;&lt;a href=&quot;/assets/images/post7/j1.jpg&quot; class=&quot;library item&quot;&gt; &lt;img src=&quot;/assets/images/post7/j1.jpg&quot; alt=&quot;jekyll-themes-histat&quot; /&gt; &lt;/a&gt;&lt;/p&gt; &lt;h2 id=&quot;где-взять-тему-для-jekyll&quot;&gt;Где взять тему для Jekyll&lt;/h2&gt; &lt;h3 id=&quot;два-основных-источника-авторских-тем&quot;&gt;Два основных источника авторских тем:&lt;/h3&gt; &lt;div class=&quot;archi-item&quot;&gt; &lt;p&gt;&lt;a href=&quot;http://jekyllthemes.org/&quot; target=&quot;_blank&quot;&gt;JekyllThemes.Org&lt;/a&gt;&lt;/p&gt; &lt;/div&gt; &lt;p&gt;&lt;a href=&quot;/assets/images/post7/j2.jpg&quot; class=&quot;library item&quot;&gt; &lt;img src=&quot;/assets/images/post7/j2.jpg&quot; alt=&quot;JekyllThemes.Org-histat&quot; /&gt; &lt;/a&gt;&lt;/p&gt; &lt;div class=&quot;archi-item&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://jekyll-themes.com/&quot; target=&quot;_blank&quot;&gt;Jekyll-Themes.Com&lt;/a&gt;&lt;/p&gt; &lt;/div&gt; &lt;p&gt;&lt;a href=&quot;/assets/images/post7/j3.jpg&quot; class=&quot;library item&quot;&gt; &lt;img src=&quot;/assets/images/post7/j3.jpg&quot; alt=&quot;Jekyll-Themes.Com-histat&quot; /&gt;...</content>
  </entry>
  
  <entry>
    <title>Как я пришёл к Jekyll</title>
-   <link href="/education/2017/11/14/may-way.html"/>
-   <id>/education/2017/11/14/may-way</id>
+   <link href="http://localhost:4000/education/2017/11/14/may-way.html"/>
+   <id>http://localhost:4000/education/2017/11/14/may-way</id>
    <updated>2017-11-14T00:00:00+03:00</updated>
    <content type="html">&lt;p&gt;&lt;a href=&quot;/assets/images/post6/j1.jpg&quot; class=&quot;library item&quot;&gt; &lt;img src=&quot;/assets/images/post6/j1.jpg&quot; alt=&quot;may-way&quot; /&gt; &lt;/a&gt;&lt;/p&gt; &lt;h2 id=&quot;мой-первый-раз&quot;&gt;Мой первый раз&lt;/h2&gt; &lt;h3 id=&quot;это-был-2009-лето-появление-интернета-в-провинциях&quot;&gt;Это был 2009, лето, появление интернета в провинциях&lt;/h3&gt; &lt;p&gt;Мне наверное было 15, что-то около того, это был 2009 год. Жил я в провинциальном городке новгородской области (кодовое имя города «Деревня Миллионеров», можете погуглить). Хоть это и...</content>
  </entry>
  
  <entry>
    <title>Jekyll new, Jekyll server</title>
-   <link href="/education/2017/11/04/jekyll-ns.html"/>
-   <id>/education/2017/11/04/jekyll-ns</id>
+   <link href="http://localhost:4000/education/2017/11/04/jekyll-ns.html"/>
+   <id>http://localhost:4000/education/2017/11/04/jekyll-ns</id>
    <updated>2017-11-04T00:00:00+03:00</updated>
    <content type="html">&lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EdrdEjsOcM4&quot; frameborder=&quot;0&quot; gesture=&quot;media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; &lt;hr /&gt; &lt;h2 id=&quot;этот-пост-хочу-сделать-максимально-простым-только-команды-и-структура-папок-всё-самое-необходимое&quot;&gt;Этот пост хочу сделать максимально простым, только команды и структура папок, всё самое необходимое&lt;/h2&gt; &lt;p&gt;&lt;a href=&quot;/assets/images/post5/j1.jpeg&quot; class=&quot;library item&quot;&gt; &lt;img src=&quot;/assets/images/post5/j1.jpeg&quot; alt=&quot;step1 histat.ml-post5&quot; /&gt; &lt;/a&gt;&lt;/p&gt; &lt;h3 id=&quot;стартуем&quot;&gt;Стартуем&lt;/h3&gt; &lt;hr /&gt; &lt;h4 id=&quot;главные-на-сегодня-для-нас-команды-находятся-на-официальном-сайте-jekyll&quot;&gt;Главные на сегодня для нас команды находятся на официальном сайте Jekyll&lt;/h4&gt;...</content>
  </entry>
  
  <entry>
    <title>Почему столько воды, а сути мало? Когда уже сайт будем создавать?!</title>
-   <link href="/education/2017/11/01/jekyll-tstart.html"/>
-   <id>/education/2017/11/01/jekyll-tstart</id>
+   <link href="http://localhost:4000/education/2017/11/01/jekyll-tstart.html"/>
+   <id>http://localhost:4000/education/2017/11/01/jekyll-tstart</id>
    <updated>2017-11-01T00:00:00+03:00</updated>
    <content type="html">&lt;h2 id=&quot;для-чего-столько-программ-установлено-и-заведен-аккаунт-на-github-если-не-показана-суть-работы-с-jekyll&quot;&gt;Для чего столько программ установлено и заведен аккаунт на GitHub, если не показана суть работы с Jekyll?&lt;/h2&gt; &lt;hr /&gt; &lt;h3 id=&quot;для-этого-есть-одна-веская-причина-способов-работы-с-jekyll-не-один-их-несколько-я-знаю-4&quot;&gt;Для этого есть одна веская причина, способов работы с Jekyll не один, их несколько. Я знаю 4.&lt;/h3&gt; &lt;hr /&gt; &lt;h4 id=&quot;основные-способы-работы-с-jekyll&quot;&gt;Основные способы работы с Jekyll:&lt;/h4&gt; &lt;hr /&gt; &lt;h5 id=&quot;1-работа-с-jekyll-локально&quot;&gt;1....</content>
  </entry>
  
  <entry>
    <title>Регистрируем аккаунт на GitHub и устанавливаем Git</title>
-   <link href="/education/2017/10/28/install-github.html"/>
-   <id>/education/2017/10/28/install-github</id>
+   <link href="http://localhost:4000/education/2017/10/28/install-github.html"/>
+   <id>http://localhost:4000/education/2017/10/28/install-github</id>
    <updated>2017-10-28T00:00:00+03:00</updated>
    <content type="html">&lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Z_S2A3Z8o4Y&quot; frameborder=&quot;0&quot; gesture=&quot;media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; &lt;h2 id=&quot;1-регистрируем-аккаунт-github&quot;&gt;1. Регистрируем аккаунт GitHub&lt;/h2&gt; &lt;p&gt;&lt;a href=&quot;/assets/images/post3/j2.jpg&quot; class=&quot;library item&quot;&gt; &lt;img src=&quot;/assets/images/post3/j2.jpg&quot; alt=&quot;step1 histat.ml-post3&quot; /&gt; &lt;/a&gt;&lt;/p&gt; &lt;hr /&gt; &lt;h3 id=&quot;переходим-на-официальный-сайт&quot;&gt;Переходим на официальный сайт&lt;/h3&gt; &lt;p&gt;&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Вот такую картину мы с вами увидим&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;/assets/images/post3/j3.png&quot; class=&quot;library item&quot;&gt; &lt;img src=&quot;/assets/images/post3/j3.png&quot; alt=&quot;github-reg histat.ml-post3&quot; /&gt; &lt;/a&gt;&lt;/p&gt; &lt;hr...</content>
  </entry>
  
  <entry>
    <title>Jekyll, установка на ОС Windows</title>
-   <link href="/education/2017/10/22/jekyll-install.html"/>
-   <id>/education/2017/10/22/jekyll-install</id>
+   <link href="http://localhost:4000/education/2017/10/22/jekyll-install.html"/>
+   <id>http://localhost:4000/education/2017/10/22/jekyll-install</id>
    <updated>2017-10-22T00:00:00+03:00</updated>
    <content type="html">&lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/al142oi8wC8&quot; frameborder=&quot;0&quot; gesture=&quot;media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href=&quot;/assets/images/post2/j2.jpg&quot; class=&quot;library item&quot;&gt; &lt;img src=&quot;/assets/images/post2/j2.jpg&quot; alt=&quot;gallery01&quot; /&gt; &lt;/a&gt;&lt;/p&gt; &lt;hr /&gt; &lt;h2 id=&quot;1-установка-ruby-на-ос-windows&quot;&gt;1. Установка Ruby на ОС Windows&lt;/h2&gt; &lt;p&gt;&lt;a href=&quot;/assets/images/post2/j3.jpg&quot; class=&quot;library item&quot;&gt; &lt;img src=&quot;/assets/images/post2/j3.jpg&quot; alt=&quot;step1 histat.ml-post2&quot; /&gt; &lt;/a&gt;&lt;/p&gt; &lt;hr /&gt; &lt;ol&gt; &lt;li&gt;&lt;strong&gt;Переходим на сайт&lt;/strong&gt; установочника Ruby для Windows &lt;a href=&quot;https://rubyinstaller.org/&quot; target=&quot;_blank&quot;&gt;rubyinstaller.org&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Скачиваем установочник&lt;/strong&gt;,...</content>
  </entry>
  
  <entry>
    <title>Статика vs Динамика</title>
-   <link href="/education/2017/10/19/jekyll-begin.html"/>
-   <id>/education/2017/10/19/jekyll-begin</id>
+   <link href="http://localhost:4000/education/2017/10/19/jekyll-begin.html"/>
+   <id>http://localhost:4000/education/2017/10/19/jekyll-begin</id>
    <updated>2017-10-19T00:00:00+03:00</updated>
    <content type="html">&lt;p&gt;&lt;a href=&quot;/assets/images/post1/j9.jpg&quot; class=&quot;library item&quot;&gt; &lt;img src=&quot;/assets/images/post1/j9.jpg&quot; alt=&quot;gallery01&quot; /&gt; &lt;/a&gt;&lt;/p&gt; &lt;h2 id=&quot;статический-сайт&quot;&gt;Статический сайт&lt;/h2&gt; &lt;p&gt;Html документы, за визуальное оформление которых отвечают css и js файлы. Сайт состоит из набора статичных html страничек, которые загружены на сервер.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Как работает:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Когда пользователь заходит на сайт, то сервер отображает в браузере уже готовые страницы.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Характеристики:&lt;/strong&gt;&lt;/p&gt;...</content>
  </entry>

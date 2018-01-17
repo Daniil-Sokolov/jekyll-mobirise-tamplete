@@ -23,5 +23,7 @@ assets/theme/js/script.js
 assets/jquery.magnific-popup.min.js
 assets/jquery.pjax.js
 assets/common.js
+{% for post in site.posts %}{{ post.id }}/
+{% endfor %}
 NETWORK:
 *
