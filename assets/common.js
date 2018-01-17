@@ -12,6 +12,19 @@ $(document).ready(function(){
 })
 
 
+
+
+
+
+
+$(window).load(function() {
+  $('#before-load').find('span').fadeOut().end().delay(400).fadeOut('slow');
+});
+
+
+
+
+
 $(function(){
       
       // pjax
@@ -35,12 +48,3 @@ $(document).on('ready pjax:end', function(event) {
 
 })
 })
-
-
-
-
-
-$(window).load(function() {
-  $('#before-load').find('span').fadeOut().end().delay(400).fadeOut('slow');
-});
-
