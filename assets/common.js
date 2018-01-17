@@ -20,6 +20,26 @@ $(function(){
 
 
 
+
+$(document).on('ready pjax:end', function(event) {
+  $(document).ready(function(){
+
+
+  $(".item").magnificPopup({
+    type: 'image',
+    gallery: {
+      enabled: true
+    }
+  });
+
+
+})
+})
+
+
+
+
+
 $(window).load(function() {
   $('#before-load').find('span').fadeOut().end().delay(400).fadeOut('slow');
 });

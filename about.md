@@ -39,4 +39,3 @@ alt-img: gallery01
 {% include gallery.html %}
 
 {% include img-plus-gal.html %}
-
