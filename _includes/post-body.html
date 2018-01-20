@@ -1,0 +1,89 @@
+<section class="mbr-section article content1 cid-quPfeFxsBH" id="content1-p" data-rv-view="612">
+    
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="col-12 col-md-8 mbr-fonts-style display-5" style="text-align: justify;">
+
+              
+                {{ content }}
+
+                
+<hr>
+
+    {% include share.html %}
+
+      <p>
+        <h3 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2 mbr-text">Навигация между постами</h3>
+        <div class="Previous-next pag align-center">
+          {% if page.previous.url %}
+            <a class="previous pag col-6" href="{{page.previous.url}}">&laquo; Назад</a>
+          {% endif %}
+          {% if page.next.url %}
+            <a class="next pag col-6" href="{{page.next.url}}">Вперёд &raquo;</a>
+          {% endif %}
+        </div>
+      </p>                         
+
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="features3 cid-quPf1lYfkY">
+<div class="container">
+  <h2 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2 mbr-text">Последние посты</h2>
+      <div class="row">
+        {% for post in site.related_posts limit:3 %}
+          <div class="card p-3 col-12 col-md-4 col-lg-4">
+          <a href="{{ post.url | relative_url }}">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <img src="{{ post.image_path }}" alt="Mobirise" media-simple="true">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style display-7">
+                            {{ post.title | escape }}
+                        </h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                            <p><span class="post-meta">{{ post.date | date: date_format }}</span></p>
+                        </p>
+                    </div>
+                    
+                </div>
+                </a>
+            </div>
+         {% endfor %}
+        </div>
+</div>
+</section>
+
+
+<style>
+    .pag a {
+    padding: 7px 18px;
+    border: 1px solid #eee;
+    margin-left: -2px;
+    margin-right: -2px;
+    background-color: #3396FF;
+    display: inline-block;
+    color: #fff;
+  }
+
+.pag a:hover {    
+    
+        background-color: #e33;
+        color: #fff;
+   
+ }
+
+.pag {
+    text-align: center;
+
+ }
+</style>
