@@ -17,9 +17,7 @@ $(document).ready(function(){
 
 
 
-$(window).load(function() {
-  $('#before-load').find('span').fadeOut().end().delay(400).fadeOut('slow');
-});
+
 
 
 
@@ -35,6 +33,8 @@ $(function(){
 
 
 $(document).on('ready pjax:end', function(event) {
+
+  
   $(document).ready(function(){
 
 
@@ -47,4 +47,6 @@ $(document).on('ready pjax:end', function(event) {
 
 
 })
+
+
 })
