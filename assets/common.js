@@ -17,12 +17,6 @@ $(document).ready(function(){
 
 
 
-
-
-
-
-
-
 $(function(){
       
       // pjax
@@ -34,7 +28,16 @@ $(function(){
 
 $(document).on('ready pjax:end', function(event) {
 
-  
+
+
+$(document).ready(function() { 
+   $.getScript('/assets/theme/js/script.js');       
+})
+
+
+
+
+
   $(document).ready(function(){
 
 
