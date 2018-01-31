@@ -1,55 +1,28 @@
-$(document).ready(function(){
-
-
+$(document).ready(function() {
   $(".item").magnificPopup({
-    type: 'image',
+    type: "image",
     gallery: {
-      enabled: true
+      enabled: !0
     }
+  })
+});
+$(function() {
+  $(document).pjax("a", "#pjax-container", {
+    fragment: "#pjax-container"
+  })
+});
+$(document).on("ready pjax:end", function(a) {
+  $(document).ready(function() {
+    $.getScript("/assets/theme/js/script.js");
+    $.getScript("//yastatic.net/es5-shims/0.0.2/es5-shims.min.js");
+    $.getScript("//yastatic.net/share2/share.js");
   });
-
-
-})
-
-
-
-
-
-
-
-$(function(){
-      
-      // pjax
-      $(document).pjax('a', '#pjax-container', {fragment: '#pjax-container'});
+  $(document).ready(function() {
+    $(".item").magnificPopup({
+      type: "image",
+      gallery: {
+        enabled: !0
+      }
     })
-
-
-
-
-$(document).on('ready pjax:end', function(event) {
-
-
-
-$(document).ready(function() { 
-   $.getScript('/assets/theme/js/script.js');       
-})
-
-
-
-
-
-  $(document).ready(function(){
-
-
-  $(".item").magnificPopup({
-    type: 'image',
-    gallery: {
-      enabled: true
-    }
-  });
-
-
-})
-
-
-})
+  })
+});
