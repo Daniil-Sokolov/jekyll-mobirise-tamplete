@@ -36,7 +36,9 @@ module.exports = function (grunt) {
 					 'assets/smooth-scroll/smooth-scroll.js',
 					  'assets/dropdown/js/script.min.js',
 					  'assets/jarallax/jarallax.min.js',					  
-					  'assets/theme/js/script.js'
+					  'assets/theme/js/script.js',
+					  'assets/mobirise-gallery/player.min.js',
+  					'assets/mobirise-gallery/script.js'
 
 	    			]  //какие файлы надо проверять
 	      }
@@ -58,7 +60,9 @@ module.exports = function (grunt) {
 					 'assets/smooth-scroll/smooth-scroll.js',
 					  'assets/dropdown/js/script.min.js',
 					  'assets/jarallax/jarallax.min.js',					  
-					  'assets/theme/js/script.js'
+					  'assets/theme/js/script.js',
+					  'assets/mobirise-gallery/player.min.js',
+  					'assets/mobirise-gallery/script.js'
 
 	    			],  // какие файлы конкатенировать
 	    		dest: 'dest/build.js'  // куда класть файл, который получиться после процесса конкатенации 
