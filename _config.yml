@@ -13,6 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
+
+
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
+
+
+
+
 title: HiStat
 description: Блог, в котором будут описания того как с малым багажом знаний и без финансовых вложений создать свой сайт. Типа гайды для чайников. 
   line in _config.yml. It will appear in your document head meta (for
