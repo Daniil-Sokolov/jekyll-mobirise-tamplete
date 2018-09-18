@@ -62,8 +62,7 @@ gulp.task('style', function() {
 			'assets/dropdown/css/style.css',
 			'assets/theme/css/style.css',
 			'assets/mobirise-gallery/style.css',
-			'assets/popup-gallery.css',
-		'assets/mobirise/css/mbr-additional.css'
+			'assets/popup-gallery.css'
 	]) // Выбираем файл для минификации
 		.pipe(concat('style.css'))
 		.pipe(cssnano()) // Сжимаем
@@ -89,7 +88,7 @@ gulp.task('mbr', function() {
 	return gulp.src('assets/mobirise/css/mbr-additional.css') // Выбираем файл для минификации
 		.pipe(cssnano()) // Сжимаем
 		.pipe(rename('mbr.css')) // Добавляем суффикс .min
-		.pipe(gulp.dest('assets/mobirise/css')); // Выгружаем в папку app/css
+		.pipe(gulp.dest('dist/css')); // Выгружаем в папку app/css
 });
 
 
