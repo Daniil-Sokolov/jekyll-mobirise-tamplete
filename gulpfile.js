@@ -93,4 +93,4 @@ gulp.task('mbr', function() {
 
 
 
-gulp.task('default', ['scripts', 'style', 'micon', 'sicon', 'mbr']);
+gulp.task('def', ['scripts', 'style', 'micon', 'sicon', 'mbr']);

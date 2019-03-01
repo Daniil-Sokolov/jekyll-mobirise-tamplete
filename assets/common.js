@@ -13,7 +13,12 @@ $(function() {
   $(document).pjax("a", "#pjax-container", {
     fragment: "#pjax-container"
   })
+
+$(document).on('pjax:start', function() { $('#pjax-container').fadeOut(); })
+$(document).on('pjax:end',   function() { $('#pjax-container').fadeIn("slow");})
+
 });
+
 
 
 $(document).on("ready pjax:end", function(a) {
@@ -29,5 +34,5 @@ $(document).on("ready pjax:end", function(a) {
         enabled: !0
       }
     })
-  })
+  }) 
 });
